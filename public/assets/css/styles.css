@@ -1,0 +1,30 @@
+.todo-list {
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+input.new-item:focus {
+  outline: none;
+}
+
+.list-group-item > button.delete,
+.list-group-item > button.complete {
+  float: right;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.edit {
+  width: 100%;
+}
+
+body {
+  background: url(../images/cloudy-day.png);
+}
+
+#burgerTitle {
+  text-align: center;
+  background: url(../images/cloudy-day.png);
+  color: #e14c4c;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
